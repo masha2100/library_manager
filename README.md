@@ -159,27 +159,6 @@ books   (id, title, author_id→authors, genre, year, isbn,
 
 Foreign keys are enforced: deleting an author cascades to their books.
 
----
-
-## 📦 Git Commit History
-
-The repository follows this commit structure (see **COMMITS.md** for full messages):
-
-```
-feat: initial project scaffold and .gitignore
-feat(db): SQLite schema, seed data, database init
-feat(auth): JWT middleware, login/logout/me endpoints
-feat(authors): full CRUD routes for authors
-feat(books): full CRUD + search/filter + CSV/JSON export
-feat(frontend): HTML/CSS app shell with Librarium design system
-feat(frontend): API module with fetch wrapper and token helpers
-feat(frontend): books page – list, add, edit, delete, view
-feat(frontend): authors page – grid, add, edit, delete
-feat(frontend): stats dashboard, export buttons, auto-login
-docs: README with setup instructions and API reference
-```
-
----
 
 ## 🛠️ Tech Decisions
 
